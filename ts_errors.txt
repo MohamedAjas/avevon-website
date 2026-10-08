@@ -1,0 +1,6 @@
+﻿src/components/layout/Footer.tsx(3,10): error TS2305: Module '"lucide-react"' has no exported member 'Facebook'.
+src/components/layout/Footer.tsx(3,20): error TS2305: Module '"lucide-react"' has no exported member 'Instagram'.
+src/components/layout/Footer.tsx(3,31): error TS2305: Module '"lucide-react"' has no exported member 'Linkedin'.
+src/components/layout/Footer.tsx(3,41): error TS2305: Module '"lucide-react"' has no exported member 'Twitter'.
+src/pages/Services.tsx(46,49): error TS6133: 'index' is declared but its value is never read.
+src/pages/Work.tsx(4,1): error TS6133: 'ArrowRight' is declared but its value is never read.

@@ -1,0 +1,196 @@
+.careersPage {
+    width: 100%;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+/* Intro */
+.introSection {
+    padding: calc(var(--header-height) + var(--spacing-xl)) 0 var(--spacing-xl);
+    background-color: var(--color-background-primary);
+}
+
+.introContent {
+    max-width: 900px;
+}
+
+.title {
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-md);
+    line-height: 1.1;
+}
+
+@media (min-width: 768px) {
+    .title {
+        font-size: 5rem;
+    }
+}
+
+.italicText {
+    font-style: italic;
+    color: var(--color-accent);
+    font-weight: 400;
+}
+
+.description {
+    font-size: 1.25rem;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+    max-width: 750px;
+}
+
+@media (min-width: 768px) {
+    .description {
+        font-size: 1.5rem;
+    }
+}
+
+/* Culture Section */
+.cultureSection {
+    padding: var(--spacing-xxl) 0;
+    background-color: var(--color-background-secondary);
+}
+
+.cultureGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-xl);
+    align-items: center;
+}
+
+@media (min-width: 1024px) {
+    .cultureGrid {
+        grid-template-columns: 1fr 1fr;
+        gap: 8%;
+    }
+}
+
+.sectionHeading {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-md);
+}
+
+.bodyPara {
+    font-size: 1.15rem;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.cultureImageBlock {
+    width: 100%;
+    height: 500px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.cultureImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Openings */
+.openingsSection {
+    padding: var(--spacing-xxl) 0;
+    background-color: var(--color-background-primary);
+}
+
+.openingsHeader {
+    margin-bottom: var(--spacing-xl);
+    text-align: center;
+}
+
+.rolesGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-bottom: var(--spacing-xl);
+}
+
+@media (min-width: 600px) {
+    .rolesGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1024px) {
+    .rolesGrid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.roleCard {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 2.5rem 2rem;
+    border-radius: 4px;
+    background-color: var(--color-background-primary);
+    transition: all var(--transition-normal);
+}
+
+.roleCard:hover {
+    border-color: var(--color-primary);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.roleTitle {
+    font-size: 1.25rem;
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+}
+
+.roleArea {
+    display: inline-block;
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+}
+
+.applyBox {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    background-color: var(--color-background-secondary);
+    border-radius: 4px;
+}
+
+.applyHeadline {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--color-primary);
+}
+
+.applyDesc {
+    color: var(--color-text-secondary);
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.primaryCTA {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary);
+    color: var(--color-text-inverse);
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 2px;
+    transition: background-color var(--transition-fast);
+}
+
+.primaryCTA:hover {
+    background-color: var(--color-accent);
+}

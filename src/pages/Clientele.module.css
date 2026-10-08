@@ -1,0 +1,165 @@
+.clientelePage {
+    width: 100%;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+/* Intro */
+.introSection {
+    padding: calc(var(--header-height) + var(--spacing-xl)) 0 var(--spacing-xl);
+    background-color: var(--color-background-primary);
+}
+
+.introContent {
+    max-width: 900px;
+}
+
+.title {
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-md);
+    line-height: 1.1;
+}
+
+@media (min-width: 768px) {
+    .title {
+        font-size: 5rem;
+    }
+}
+
+.italicText {
+    font-style: italic;
+    color: var(--color-accent);
+    font-weight: 400;
+}
+
+.description {
+    font-size: 1.25rem;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+    max-width: 750px;
+}
+
+@media (min-width: 768px) {
+    .description {
+        font-size: 1.5rem;
+    }
+}
+
+/* Logo Grid */
+.gridSection {
+    padding: 0 0 var(--spacing-xxl);
+    background-color: var(--color-background-primary);
+}
+
+.logoGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .logoGrid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .logoGrid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 3rem;
+    }
+}
+
+.logoCard {
+    aspect-ratio: 4 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-background-secondary);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    transition: all var(--transition-normal);
+    cursor: default;
+}
+
+.logoCard:hover {
+    background-color: #fff;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+    transform: translateY(-5px);
+}
+
+.logoPlaceholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.clientLogoImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+    transition: all var(--transition-normal);
+}
+
+.logoCard:hover .clientLogoImage {
+    transform: scale(1.02);
+}
+
+/* Collaboration Section */
+.collaborationSection {
+    padding: var(--spacing-xxl) 0;
+    background-color: var(--color-background-secondary);
+    text-align: center;
+}
+
+.collabContent {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.collabTitle {
+    font-size: 2.5rem;
+    color: var(--color-primary);
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .collabTitle {
+        font-size: 3rem;
+    }
+}
+
+.collabText {
+    font-size: 1.25rem;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+    margin-bottom: 3rem;
+}
+
+.primaryCTA {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary);
+    color: var(--color-text-inverse);
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 2px;
+    transition: background-color var(--transition-fast);
+}
+
+.primaryCTA:hover {
+    background-color: var(--color-accent);
+}
