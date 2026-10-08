@@ -78,7 +78,7 @@
 }
 
 .heroHeadline {
-    font-size: 3rem;
+    font-size: 2.2rem;
     font-weight: 500;
     line-height: 1.1;
     color: var(--color-text-inverse);
@@ -111,9 +111,15 @@
 }
 
 .sectionHeading {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     margin-bottom: var(--spacing-lg);
     color: var(--color-primary);
+}
+
+@media (min-width: 768px) {
+    .sectionHeading {
+        font-size: 2.5rem;
+    }
 }
 
 .capabilitiesList {

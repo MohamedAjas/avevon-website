@@ -19,7 +19,7 @@
 }
 
 .title {
-    font-size: 3.5rem;
+    font-size: 2.2rem;
     font-weight: 500;
     color: var(--color-primary);
     margin-bottom: var(--spacing-md);
@@ -27,6 +27,12 @@
 }
 
 @media (min-width: 768px) {
+    .title {
+        font-size: 3.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
     .title {
         font-size: 5rem;
     }
@@ -77,10 +83,16 @@
 .projectImageContainer {
     position: relative;
     width: 100%;
-    height: 400px;
+    height: 300px;
     border-radius: 4px;
     overflow: hidden;
     margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .projectImageContainer {
+        height: 400px;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -154,9 +166,15 @@
 }
 
 .projectTitle {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--color-primary);
     margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .projectTitle {
+        font-size: 2rem;
+    }
 }
 
 .projectDesc {
@@ -179,8 +197,14 @@
 
 .ctaHeadline {
     color: var(--color-primary);
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .ctaHeadline {
+        font-size: 3rem;
+    }
 }
 
 .primaryCTA {

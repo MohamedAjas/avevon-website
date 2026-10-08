@@ -59,7 +59,7 @@
 }
 
 .heroHeadline {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: 500;
     line-height: 1.1;
     color: var(--color-text-inverse);
@@ -68,6 +68,12 @@
 }
 
 @media (min-width: 768px) {
+    .heroHeadline {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 1024px) {
     .heroHeadline {
         font-size: 5rem;
     }
@@ -159,7 +165,7 @@
 }
 
 .sectionHeading {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     font-weight: 500;
     margin-bottom: var(--spacing-md);
     color: var(--color-primary);
@@ -204,9 +210,15 @@
 .editorialImageContainer {
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 350px;
     overflow: hidden;
     border-radius: 2px;
+}
+
+@media (min-width: 768px) {
+    .editorialImageContainer {
+        height: 500px;
+    }
 }
 
 .editorialImage {
@@ -231,9 +243,15 @@
 }
 
 .sectionHeadingLarge {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 500;
     color: var(--color-primary);
+}
+
+@media (min-width: 768px) {
+    .sectionHeadingLarge {
+        font-size: 3rem;
+    }
 }
 
 .servicesList {
@@ -362,7 +380,7 @@
 
 .ctaHeadline {
     color: var(--color-text-inverse);
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 2.5rem;
 }
 
