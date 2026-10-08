@@ -37,12 +37,18 @@
 .desktopNav {
     display: none;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 @media (min-width: 1024px) {
     .desktopNav {
         display: flex;
+    }
+}
+
+@media (min-width: 1280px) {
+    .desktopNav {
+        gap: 2rem;
     }
 }
 

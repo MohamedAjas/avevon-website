@@ -69,11 +69,11 @@
 
 @media (min-width: 768px) {
     .heroHeadline {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
     .heroHeadline {
         font-size: 5rem;
     }
