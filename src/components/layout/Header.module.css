@@ -37,10 +37,10 @@
 .desktopNav {
     display: none;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1100px) {
     .desktopNav {
         display: flex;
     }
@@ -141,7 +141,7 @@
     color: var(--color-text-inverse);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1100px) {
     .ctaButton {
         display: inline-block;
     }
@@ -155,7 +155,7 @@
     display: flex;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1100px) {
     .mobileMenuButton {
         display: none;
     }
